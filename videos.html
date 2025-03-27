@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos & Fotos - Padaria Delícia</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><span>Padaria</span> Delícia</h1>
+                <p>Desde 1985 levando qualidade à sua mesa</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cardapio.html">Cardápio</a></li>
+                    <li><a href="cliente.html">Área do Cliente</a></li>
+                    <li><a href="videos.html" class="active">Vídeos & Fotos</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h2>Vídeos & Fotos</h2>
+            <p>Conheça nosso trabalho por dentro</p>
+        </div>
+    </section>
+
+    <section class="media-content">
+        <div class="container">
+            <div class="media-tabs">
+                <button class="active" data-tab="fotos">Fotos</button>
+                <button data-tab="videos">Vídeos</button>
+            </div>
+            
+            <div class="media-gallery" id="fotos-tab">
+                <h3>Nossa Galeria de Fotos</h3>
+                <div class="gallery-grid">
+                    <!-- Adicione suas fotos aqui -->
+                    <div class="gallery-item">
+                        <img src="imgs/padaria.jpg" alt="Interior da padaria">
+                        <div class="gallery-overlay">
+                            <p>Nosso espaço aconchegante</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="imgs/produtos-gerais.jpg" alt="Produtos da padaria">
+                        <div class="gallery-overlay">
+                            <p>Nossos produtos frescos</p>
+                        </div>
+                    </div>
+                    <!-- Adicione mais fotos conforme necessário -->
+                </div>
+            </div>
+            
+            <div class="media-gallery" id="videos-tab" style="display:none;">
+                <h3>Nossos Vídeos</h3>
+                <div class="videos-grid">
+                    <!-- Adicione seus vídeos aqui -->
+                    <div class="video-item">
+                        <div class="video-wrapper">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/fp9DvCDVzEU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <h4>Conheça nossa padaria</h4>
+                    </div>
+                    <!-- Adicione mais vídeos conforme necessário -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-col">
+                <h3>Horário de Funcionamento</h3>
+                <p>Segunda a Sexta: 6h às 20h</p>
+                <p>Sábado: 6h às 18h</p>
+                <p>Domingo: 6h às 14h</p>
+            </div>
+            <div class="footer-col">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cardapio.html">Cardápio</a></li>
+                    <li><a href="cliente.html">Área do Cliente</a></li>
+                    <li><a href="videos.html">Vídeos & Fotos</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <form>
+                    <input type="email" placeholder="Seu e-mail">
+                    <button type="submit">Assinar</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Padaria Delícia. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

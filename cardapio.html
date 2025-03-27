@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio - Padaria Delícia</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><span>Padaria</span> Delícia</h1>
+                <p>Desde 1985 levando qualidade à sua mesa</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cardapio.html" class="active">Cardápio</a></li>
+                    <li><a href="cliente.html">Área do Cliente</a></li>
+                    <li><a href="videos.html">Vídeos & Fotos</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h2>Nosso Cardápio</h2>
+            <p>Conheça nossos deliciosos produtos</p>
+        </div>
+    </section>
+
+    <section class="cardapio">
+        <div class="container">
+            <div class="cardapio-categorias">
+                <button class="active" data-categoria="todos">Todos</button>
+                <button data-categoria="paes">Pães</button>
+                <button data-categoria="bolos">Bolos</button>
+                <button data-categoria="salgados">Salgados</button>
+                <button data-categoria="doces">Doces</button>
+            </div>
+
+            <div class="cardapio-grid">
+                <!-- Você pode adicionar os itens do cardápio aqui -->
+                <div class="cardapio-item" data-categoria="paes">
+                    <div class="cardapio-img" style="background-image: url('imgs/pao-destaque.jpg');"></div>
+                    <h3>Pão Francês</h3>
+                    <p>Pão tradicional crocante por fora e macio por dentro</p>
+                    <span class="preco">R$ 0,80/un</span>
+                </div>
+                
+                <div class="cardapio-item" data-categoria="bolos">
+                    <div class="cardapio-img" style="background-image: url('imgs/bolo-chocolate.jpg');"></div>
+                    <h3>Bolo de Chocolate</h3>
+                    <p>Feito com chocolate 70% cacau</p>
+                    <span class="preco">R$ 35,00/kg</span>
+                </div>
+
+                <div class="cardapio-item" data-categoria="paes">
+                    <div class="cardapio-img" style="background-image: url('imgs/baguete.jpg');"></div>
+                    <h3>Baguete</h3>
+                    <p>Baguete tradicional crocante por fora e macio por dentro</p>
+                    <span class="preco">R$ 1,30/un</span>
+                </div>
+                <div class="cardapio-item" data-categoria="paes">
+                    <div class="cardapio-img" style="background-image: url('imgs/pao-integral.jpg');"></div>
+                    <h3>Pão Integral</h3>
+                    <p>Feito com farinhas integrais e super gostoso</p>
+                    <span class="preco">R$ 15,00/kg</span>
+                </div>
+                <div class="cardapio-item" data-categoria="bolos">
+                    <div class="cardapio-img" style="background-image: url('imgs/bolo-morango.jpg');"></div>
+                    <h3>Bolo de Morango</h3>
+                    <p>Feito com morangos fresquinhos</p>
+                    <span class="preco">R$ 45,00/kg</span>
+                </div>
+                <div class="cardapio-item" data-categoria="bolos">
+                    <div class="cardapio-img" style="background-image: url('imgs/bolo-limao.jpg');"></div>
+                    <h3>Bolo de Limão</h3>
+                    <p>Feito com limões sicilianos</p>
+                    <span class="preco">R$ 30,00/kg</span>
+                </div>
+                <div class="cardapio-item" data-categoria="salgados">
+                    <div class="cardapio-img" style="background-image: url('imgs/enroladinho.jpg');"></div>
+                    <h3>Enroladinho de Salame</h3>
+                    <p>Enroladinhos feito com salames e um sabor marcante</p>
+                    <span class="preco">R$ 2,00/un</span>
+                </div>
+                <div class="cardapio-item" data-categoria="doces">
+                    <div class="cardapio-img" style="background-image: url('imgs/donut-simples.jpg');"></div>
+                    <h3>Donuts Simples</h3>
+                    <p>Donuts simples feito com massa fofinha e recheio de creme</p>
+                    <span class="preco">R$ 6,50/un</span>
+                </div>
+                <div class="cardapio-item" data-categoria="doces">
+                    <div class="cardapio-img" style="background-image: url('imgs/torta-morango.jpg');"></div>
+                    <h3>Torta de Morango e Mirtilo</h3>
+                    <p>Tortinha feita com morangos frescos e mirtilos deliciosos</p>
+                    <span class="preco">R$ 15,00/kg</span>
+                </div>
+                
+                <!-- Adicione mais itens conforme necessário -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-col">
+                <h3>Horário de Funcionamento</h3>
+                <p>Segunda a Sexta: 6h às 20h</p>
+                <p>Sábado: 6h às 18h</p>
+                <p>Domingo: 6h às 14h</p>
+            </div>
+            <div class="footer-col">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cardapio.html">Cardápio</a></li>
+                    <li><a href="cliente.html">Área do Cliente</a></li>
+                    <li><a href="videos.html">Vídeos & Fotos</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <form>
+                    <input type="email" placeholder="Seu e-mail">
+                    <button type="submit">Assinar</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Padaria Delícia. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
