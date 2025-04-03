@@ -658,6 +658,37 @@ footer input {
     padding: 15px;
 }
 
+table {
+    width: 50%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f4a261;
+    color: white;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+td {
+    font-size: 16px;
+}
+
+.tabela-destaques{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Responsivo */
 @media (max-width: 992px) {
     .sobre .container, .cliente-area .container {

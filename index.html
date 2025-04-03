@@ -1,131 +1,171 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Padaria Delícia - Pão Fresco Todo Dia</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <div class="logo">
-                <h1><span>Padaria</span> Delícia</h1>
-                <p>Desde 1985 levando qualidade à sua mesa</p>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="cardapio.html">Cardápio</a></li>
-                    <li><a href="cliente.html">Área do Cliente</a></li>
-                    <li><a href="videos.html">Vídeos & Fotos</a></li>
-                </ul>
-            </nav>
-            <div class="mobile-menu">
-                <i class="fas fa-bars"></i>
-            </div>
+      <div class="container">
+        <div class="logo">
+          <h1><span>Padaria</span> Delícia</h1>
+          <p>Desde 1985 levando qualidade à sua mesa</p>
         </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cardapio.html">Cardápio</a></li>
+            <li><a href="cliente.html">Área do Cliente</a></li>
+            <li><a href="videos.html">Vídeos & Fotos</a></li>
+          </ul>
+        </nav>
+        <div class="mobile-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
     </header>
 
     <section class="hero">
-        <div class="hero-content">
-            <h2>Pão quentinho saindo do forno</h2>
-            <p>Conheça nossos produtos artesanais feitos com ingredientes selecionados</p>
-            <a href="cardapio.html" class="btn">Ver Cardápio</a>
-        </div>
+      <div class="hero-content">
+        <marquee scrollamount="30" behavior="scroll" direction="left"
+          ><h2 style="font-size: 70px">
+            Pão quentinho saindo do forno
+          </h2></marquee
+        >
+        <p>
+          Conheça nossos produtos artesanais feitos com ingredientes
+          selecionados
+        </p>
+        <a href="cardapio.html" class="btn">Ver Cardápio</a>
+      </div>
     </section>
 
     <section class="destaques">
-        <div class="container">
-            <h2>Nossos Destaques</h2>
-            <div class="destaques-grid">
-                <div class="destaque-item">
-                    <div class="destaque-img" id="destaque1"></div>
-                    <h3>Pão Francês</h3>
-                    <p>Feito com farinha especial e fermentação natural</p>
-                </div>
-                <div class="destaque-item">
-                    <div class="destaque-img" id="destaque2"></div>
-                    <h3>Bolos Caseiros</h3>
-                    <p>Receitas tradicionais feitas com carinho</p>
-                </div>
-                <div class="destaque-item">
-                    <div class="destaque-img" id="destaque3"></div>
-                    <h3>Salgados</h3>
-                    <p>Perfeitos para o seu café da manhã ou lanche</p>
-                </div>
-            </div>
+      <div class="container">
+        <h2>Nossos Destaques</h2>
+        <div class="destaques-grid">
+          <div class="destaque-item">
+            <div class="destaque-img" id="destaque1"></div>
+            <h3>Pão Francês</h3>
+            <p>Feito com farinha especial e fermentação natural</p>
+          </div>
+          <div class="destaque-item">
+            <div class="destaque-img" id="destaque2"></div>
+            <h3>Bolos Caseiros</h3>
+            <p>Receitas tradicionais feitas com carinho</p>
+          </div>
+          <div class="destaque-item">
+            <div class="destaque-img" id="destaque3"></div>
+            <h3>Salgados</h3>
+            <p>Perfeitos para o seu café da manhã ou lanche</p>
+          </div>
         </div>
+      </div>
     </section>
 
+    <section class="tabela-destaques">
+      <table>
+        <thead>
+          <tr>
+            <th>Produto</th>
+            <th>Valor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Pão Francês</td>
+            <td>R$ 5,00</td>
+          </tr>
+          <tr>
+            <td>Bolos Caseiros</td>
+            <td>R$ 25,00</td>
+          </tr>
+          <tr>
+            <td>Salgados</td>
+            <td>R$ 8,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    
     <section class="sobre">
-        <div class="container">
-            <div class="sobre-content">
-                <h2>Sobre Nossa Padaria</h2>
-                <p>Nossa padaria foi fundada em 1985 com o objetivo de oferecer produtos de qualidade feitos da forma tradicional. Utilizamos ingredientes selecionados e técnicas artesanais para garantir o melhor sabor em cada produto.</p>
-                <p>Visite-nos e experimente o verdadeiro sabor do pão caseiro!</p>
-                <a href="#" class="btn">Nossa História</a>
-            </div>
-            <div class="sobre-img"></div>
+      <div class="container">
+        <div class="sobre-content">
+          <h2>Sobre Nossa Padaria</h2>
+          <p>
+            Nossa padaria foi fundada em 1985 com o objetivo de oferecer
+            produtos de qualidade feitos da forma tradicional. Utilizamos
+            ingredientes selecionados e técnicas artesanais para garantir o
+            melhor sabor em cada produto.
+          </p>
+          <p>Visite-nos e experimente o verdadeiro sabor do pão caseiro!</p>
+          <a href="#" class="btn">Nossa História</a>
         </div>
+        <div class="sobre-img"></div>
+      </div>
     </section>
 
     <section class="contato">
-        <div class="container">
-            <h2>Entre em Contato</h2>
-            <div class="contato-info">
-                <div>
-                    <i class="fas fa-map-marker-alt"></i>
-                    <p>Rua das Flores, 123 - Centro</p>
-                </div>
-                <div>
-                    <i class="fas fa-phone"></i>
-                    <p>(11) 1234-5678</p>
-                </div>
-                <div>
-                    <i class="fas fa-envelope"></i>
-                    <p>contato@padariadelicia.com.br</p>
-                </div>
-            </div>
-            <div class="redes-sociais">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-whatsapp"></i></a>
-            </div>
+      <div class="container">
+        <h2>Entre em Contato</h2>
+        <div class="contato-info">
+          <div>
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Rua das Flores, 123 - Centro</p>
+          </div>
+          <div>
+            <i class="fas fa-phone"></i>
+            <p>(11) 1234-5678</p>
+          </div>
+          <div>
+            <i class="fas fa-envelope"></i>
+            <p>contato@padariadelicia.com.br</p>
+          </div>
         </div>
+        <div class="redes-sociais">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
     </section>
 
     <footer>
-        <div class="container">
-            <div class="footer-col">
-                <h3>Horário de Funcionamento</h3>
-                <p>Segunda a Sexta: 6h às 20h</p>
-                <p>Sábado: 6h às 18h</p>
-                <p>Domingo: 6h às 14h</p>
-            </div>
-            <div class="footer-col">
-                <h3>Links Rápidos</h3>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="cardapio.html">Cardápio</a></li>
-                    <li><a href="cliente.html">Área do Cliente</a></li>
-                    <li><a href="videos.html">Vídeos & Fotos</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h3>Newsletter</h3>
-                <form>
-                    <input type="email" placeholder="Seu e-mail">
-                    <button type="submit">Assinar</button>
-                </form>
-            </div>
+      <div class="container">
+        <div class="footer-col">
+          <h3>Horário de Funcionamento</h3>
+          <p>Segunda a Sexta: 6h às 20h</p>
+          <p>Sábado: 6h às 18h</p>
+          <p>Domingo: 6h às 14h</p>
         </div>
-        <div class="copyright">
-            <p>&copy; 2023 Padaria Delícia. Todos os direitos reservados.</p>
+        <div class="footer-col">
+          <h3>Links Rápidos</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cardapio.html">Cardápio</a></li>
+            <li><a href="cliente.html">Área do Cliente</a></li>
+            <li><a href="videos.html">Vídeos & Fotos</a></li>
+          </ul>
         </div>
+        <div class="footer-col">
+          <h3>Newsletter</h3>
+          <form>
+            <input type="email" placeholder="Seu e-mail" />
+            <button type="submit">Assinar</button>
+          </form>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2023 Padaria Delícia. Todos os direitos reservados.</p>
+      </div>
     </footer>
 
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
